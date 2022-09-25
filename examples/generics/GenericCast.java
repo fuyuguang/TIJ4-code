@@ -1,5 +1,8 @@
 //: generics/GenericCast.java
 
+import java.lang.Object;
+import java.lang.String;
+
 class FixedSizeStack<T> {
   private int index = 0;
   private Object[] storage;

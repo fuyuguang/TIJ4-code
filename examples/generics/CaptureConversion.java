@@ -10,8 +10,8 @@ public class CaptureConversion {
   }	
   @SuppressWarnings("unchecked")
   public static void main(String[] args) {
-    Holder raw = new Holder<Integer>(1);
-    // f1(raw); // Produces warnings
+    Holder<Integer> raw = new Holder<Integer>(1);
+     f1(raw); // Produces warnings
     f2(raw); // No warnings
     Holder rawBasic = new Holder();
     rawBasic.set(new Object()); // Warning
