@@ -1,5 +1,5 @@
 //: holding/ListIteration.java
-import typeinfo.pets.*;
+import pets.*;
 import java.util.*;
 
 public class ListIteration {

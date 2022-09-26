@@ -94,7 +94,7 @@
 
   <target name="FamilyVsExactType">
     <java
-     classname="typeinfo.FamilyVsExactType"
+     classname="FamilyVsExactType"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../typeinfo/"
      failonerror="true"
@@ -294,7 +294,7 @@
 
   <target name="LiteralPetCreator">
     <java
-     classname="typeinfo.pets.LiteralPetCreator"
+     classname="pets.LiteralPetCreator"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../typeinfo/pets/"
      failonerror="true"
@@ -303,7 +303,7 @@
 
   <target name="GenericToyTest">
     <java
-     classname="typeinfo.toys.GenericToyTest"
+     classname="toys.GenericToyTest"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../typeinfo/toys/"
      failonerror="true"
@@ -312,7 +312,7 @@
 
   <target name="ToyTest">
     <java
-     classname="typeinfo.toys.ToyTest"
+     classname="toys.ToyTest"
      classpath="${java.class.path};${basedir};${basedir}/.."
      dir="../typeinfo/toys/"
      failonerror="true"

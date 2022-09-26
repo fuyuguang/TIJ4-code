@@ -536,12 +536,12 @@
         <BugCode name="UuF"/>
         <!--Unused field: polymorphism.music4.Instrument.i-->
     </Match>
-    <Match class="typeinfo.pets.ForNameCreator">
+    <Match class="pets.ForNameCreator">
         <BugCode name="EI"/>
-        <!--typeinfo.pets.ForNameCreator.getTypes() may expose internal representation by returning typeinfo.pets.ForNameCreator.types  At unknown source line-->
+        <!--pets.ForNameCreator.getTypes() may expose internal representation by returning pets.ForNameCreator.types  At unknown source line-->
     </Match>
-    <Match class="typeinfo.pets.LiteralPetCreator">
+    <Match class="pets.LiteralPetCreator">
         <BugCode name="EI"/>
-        <!--typeinfo.pets.LiteralPetCreator.getTypes() may expose internal representation by returning typeinfo.pets.LiteralPetCreator.types  At unknown source line-->
+        <!--pets.LiteralPetCreator.getTypes() may expose internal representation by returning pets.LiteralPetCreator.types  At unknown source line-->
     </Match>
 </FindBugsFilter>

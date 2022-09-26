@@ -1,5 +1,5 @@
 //: holding/NonCollectionSequence.java
-import typeinfo.pets.*;
+import pets.*;
 import java.util.*;
 
 class PetSequence {

@@ -1,5 +1,5 @@
 //: typeinfo/interfacea/A.java
-package typeinfo.interfacea;
+package interfacea;
 
 public interface A {
   void f();

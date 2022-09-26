@@ -1,7 +1,7 @@
 //: typeinfo/HiddenImplementation.java
 // Sneaking around package access.
-import typeinfo.interfacea.*;
-import typeinfo.packageaccess.*;
+import interfacea.*;
+import packageaccess.*;
 import java.lang.reflect.*;
 
 public class HiddenImplementation {
@@ -29,7 +29,7 @@ public class HiddenImplementation {
   }
 } /* Output:
 public C.f()
-typeinfo.packageaccess.C
+packageaccess.C
 public C.g()
 package C.u()
 protected C.v()

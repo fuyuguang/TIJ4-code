@@ -1,6 +1,6 @@
 //: typeinfo/toys/ToyTest.java
 // Testing class Class.
-package typeinfo.toys;
+package toys;
 import static net.mindview.util.Print.*;
 
 interface HasBatteries {}
@@ -29,7 +29,7 @@ public class ToyTest {
   public static void main(String[] args) {
     Class c = null;
     try {
-      c = Class.forName("typeinfo.toys.FancyToy");
+      c = Class.forName("toys.FancyToy");
     } catch(ClassNotFoundException e) {
       print("Can't find FancyToy");
       System.exit(1);
@@ -52,19 +52,19 @@ public class ToyTest {
     printInfo(obj.getClass());
   }
 } /* Output:
-Class name: typeinfo.toys.FancyToy is interface? [false]
+Class name: toys.FancyToy is interface? [false]
 Simple name: FancyToy
-Canonical name : typeinfo.toys.FancyToy
-Class name: typeinfo.toys.HasBatteries is interface? [true]
+Canonical name : toys.FancyToy
+Class name: toys.HasBatteries is interface? [true]
 Simple name: HasBatteries
-Canonical name : typeinfo.toys.HasBatteries
-Class name: typeinfo.toys.Waterproof is interface? [true]
+Canonical name : toys.HasBatteries
+Class name: toys.Waterproof is interface? [true]
 Simple name: Waterproof
-Canonical name : typeinfo.toys.Waterproof
-Class name: typeinfo.toys.Shoots is interface? [true]
+Canonical name : toys.Waterproof
+Class name: toys.Shoots is interface? [true]
 Simple name: Shoots
-Canonical name : typeinfo.toys.Shoots
-Class name: typeinfo.toys.Toy is interface? [false]
+Canonical name : toys.Shoots
+Class name: toys.Toy is interface? [false]
 Simple name: Toy
-Canonical name : typeinfo.toys.Toy
+Canonical name : toys.Toy
 *///:~

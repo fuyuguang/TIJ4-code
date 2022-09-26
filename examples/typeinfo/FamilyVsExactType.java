@@ -28,7 +28,7 @@ public class FamilyVsExactType {
     test(new Derived());
   }	
 } /* Output:
-Testing x of type class typeinfo.Base
+Testing x of type class Base
 x instanceof Base true
 x instanceof Derived false
 Base.isInstance(x) true
@@ -37,7 +37,7 @@ x.getClass() == Base.class true
 x.getClass() == Derived.class false
 x.getClass().equals(Base.class)) true
 x.getClass().equals(Derived.class)) false
-Testing x of type class typeinfo.Derived
+Testing x of type class Derived
 x instanceof Base true
 x instanceof Derived true
 Base.isInstance(x) true

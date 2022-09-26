@@ -1,5 +1,5 @@
 //: typeinfo/PetCount2.java
-import typeinfo.pets.*;
+import pets.*;
 
 public class PetCount2 {
   public static void main(String[] args) {

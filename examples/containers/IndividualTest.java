@@ -1,6 +1,6 @@
 //: containers/IndividualTest.java
 import holding.MapOfList;
-import typeinfo.pets.*;
+import pets.*;
 import java.util.*;
 
 public class IndividualTest {

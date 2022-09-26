@@ -1,3 +1,3 @@
 //: typeinfo/factory/Factory.java
-package typeinfo.factory;
+package factory;
 public interface Factory<T> { T create(); } ///:~

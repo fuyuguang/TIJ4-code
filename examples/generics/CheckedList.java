@@ -1,7 +1,14 @@
 //: generics/CheckedList.java
 // Using Collection.checkedList().
-import typeinfo.pets.*;
-import java.util.*;
+
+import pets.*;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Collections;
 
 public class CheckedList {
   @SuppressWarnings("unchecked")
@@ -25,5 +32,5 @@ public class CheckedList {
     pets.add(new Cat());
   }
 } /* Output:
-java.lang.ClassCastException: Attempt to insert class typeinfo.pets.Cat element into collection with element type class typeinfo.pets.Dog
+java.lang.ClassCastException: Attempt to insert class pets.Cat element into collection with element type class pets.Dog
 *///:~

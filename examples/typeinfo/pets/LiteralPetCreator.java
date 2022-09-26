@@ -1,6 +1,6 @@
 //: typeinfo/pets/LiteralPetCreator.java
 // Using class literals.
-package typeinfo.pets;
+package pets;
 import java.util.*;
 
 public class LiteralPetCreator extends PetCreator {
@@ -22,5 +22,5 @@ public class LiteralPetCreator extends PetCreator {
     System.out.println(types);
   }
 } /* Output:
-[class typeinfo.pets.Mutt, class typeinfo.pets.Pug, class typeinfo.pets.EgyptianMau, class typeinfo.pets.Manx, class typeinfo.pets.Cymric, class typeinfo.pets.Rat, class typeinfo.pets.Mouse, class typeinfo.pets.Hamster]
+[class pets.Mutt, class pets.Pug, class pets.EgyptianMau, class pets.Manx, class pets.Cymric, class pets.Rat, class pets.Mouse, class pets.Hamster]
 *///:~

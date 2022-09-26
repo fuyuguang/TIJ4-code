@@ -1,5 +1,5 @@
 //: generics/SimplerPets.java
-import typeinfo.pets.*;
+import pets.*;
 import java.util.*;
 import net.mindview.util.*;
 

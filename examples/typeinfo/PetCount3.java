@@ -1,6 +1,6 @@
 //: typeinfo/PetCount3.java
 // Using isInstance()
-import typeinfo.pets.*;
+import pets.*;
 import java.util.*;
 import net.mindview.util.*;
 import static net.mindview.util.Print.*;

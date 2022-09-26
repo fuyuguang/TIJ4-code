@@ -1,5 +1,5 @@
 //: holding/SimpleIteration.java
-import typeinfo.pets.*;
+import pets.*;
 import java.util.*;
 
 public class SimpleIteration {

@@ -1,5 +1,5 @@
 //: holding/PetMap.java
-import typeinfo.pets.*;
+import pets.*;
 import java.util.*;
 import static net.mindview.util.Print.*;
 

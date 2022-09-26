@@ -1,5 +1,5 @@
 //: typeinfo/pets/ForNameCreator.java
-package typeinfo.pets;
+package pets;
 import java.util.*;
 
 public class ForNameCreator extends PetCreator {
@@ -7,14 +7,14 @@ public class ForNameCreator extends PetCreator {
     new ArrayList<Class<? extends Pet>>();
   // Types that you want to be randomly created:
   private static String[] typeNames = {
-    "typeinfo.pets.Mutt",
-    "typeinfo.pets.Pug",
-    "typeinfo.pets.EgyptianMau",
-    "typeinfo.pets.Manx",
-    "typeinfo.pets.Cymric",
-    "typeinfo.pets.Rat",
-    "typeinfo.pets.Mouse",
-    "typeinfo.pets.Hamster"
+    "pets.Mutt",
+    "pets.Pug",
+    "pets.EgyptianMau",
+    "pets.Manx",
+    "pets.Cymric",
+    "pets.Rat",
+    "pets.Mouse",
+    "pets.Hamster"
   };	
   @SuppressWarnings("unchecked")
   private static void loader() {
